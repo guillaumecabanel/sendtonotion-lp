@@ -24,7 +24,7 @@ File.open("dist/#{style_file}", "w") { |file| file.puts minified_style }
 html = File.read("dist/#{html_file}")
 
 minified_html = html.gsub(/\n/, "")
-minified_html = minified_html.gsub(/>\s*/, ">")
+minified_html = minified_html.gsub(/>\s*</, "><")
 
 
 File.open("dist/#{html_file}", "w") { |file| file.puts minified_html }
