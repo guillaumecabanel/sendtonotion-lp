@@ -27,6 +27,10 @@ body {
   font-weight: 800;
 }
 
+#hero h1 em {
+  text-decoration: underline 2px;
+}
+
 #hero p#form-intro {
   margin-top: 2rem;
   line-height: 1.5rem;
