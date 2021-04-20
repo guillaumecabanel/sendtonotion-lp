@@ -217,6 +217,11 @@ footer ul li a {
   transition-duration: .3s;
 }
 
+footer p a {
+  color: inherit;
+  font-weight: 600;
+}
+
 footer ul li a:hover {
   color: black;
   text-decoration-color: black;
