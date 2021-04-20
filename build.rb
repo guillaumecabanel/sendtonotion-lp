@@ -31,5 +31,5 @@ File.open("site/index.html", "w") { |file| file.puts minified_html }
 erb = ERB.new(File.read("src/sitemap.xml.erb"))
 File.open("site/sitemap.xml", "w") { |file| file.puts erb.result }
 
-erb = ERB.new(File.read("src/robot.txt.erb"))
-File.open("site/robot.txt", "w") { |file| file.puts erb.result }
+erb = ERB.new(File.read("src/robots.txt.erb"))
+File.open("site/robots.txt", "w") { |file| file.puts erb.result }
