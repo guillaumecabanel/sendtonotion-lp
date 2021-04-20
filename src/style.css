@@ -10,7 +10,7 @@ body {
   max-width: 80rem;
 }
 
-#hero > em {
+#hero div > em {
   font-size: .875rem;
   line-height: 1.25rem;
   letter-spacing: .025em;
@@ -27,7 +27,7 @@ body {
   font-weight: 800;
 }
 
-#hero h1 em {
+#hero h1 > em {
   text-decoration: underline 2px;
 }
 
