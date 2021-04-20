@@ -27,3 +27,6 @@ minified_html = html.gsub(/\n/, "")
 minified_html = minified_html.gsub(/>\s*</, "><")
 
 File.open("site/index.html", "w") { |file| file.puts minified_html }
+
+erb = ERB.new(File.read("src/sitemap.xml.erb"))
+File.open("site/sitemap.xml", "w") { |file| file.puts erb.result }
