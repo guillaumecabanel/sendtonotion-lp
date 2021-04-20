@@ -1,7 +1,7 @@
 title: Send to Notion
 short_description: Save your newsletters directly to Notion
 short_description_html: Save your newsletters directly to <em>Notion</em>
-meta_image:
+meta_image: https://sendtonotion.netlify.app/metadata.png
 
 long_description: Transform your newsletter emails into a searchable database in Notion by forwarding them to @inbox.sendtonotion.com
 long_description_html: Transform your newsletter emails into a searchable database in Notion by forwarding them to <span class="email">@inbox.sendtonotion.com</span>
