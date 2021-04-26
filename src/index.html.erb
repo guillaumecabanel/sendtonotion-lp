@@ -52,7 +52,7 @@
         <h1><%= config[:title] %></h1>
       </section>
       <section class="right">
-        <a class="contact" href="mailto:sendtonotion@devotion.so">Contact us</a>
+        <a class="contact" href="mailto:<%= config[:contact_email] %>">Contact us</a>
       </section>
     </header>
     <section id="hero">
@@ -80,7 +80,7 @@
     <footer>
       <ul>
         <%# <li><a href="https://github.com/timgrc/send-to-notion">Open source</a></li> %>
-        <li><a href="mailto:sendtonotion@devotion.so">Contact</a></li>
+        <li><a href="mailto:<%= config[:contact_email] %>">Contact</a></li>
       </ul>
       <p>Made by <a href="https://kuartz.fr">Kuartz</a> in Nantes, France</p>
     </footer>
