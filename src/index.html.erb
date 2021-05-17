@@ -64,13 +64,19 @@
         <p id="description"><%= config[:long_description_html] %></p>
 
         <p id="form-intro"><em>Sign up</em> to get notified when it's ready.</p>
-        <form name="signup" netlify>
-          <label for="email">Email</label>
+
+        <form action="https://sendtonotion.us1.list-manage.com/subscribe/post?u=0c340db8f186e97de79b3263a&amp;id=8779ce619e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <label for="mce-EMAIL">Email</label>
           <div class="input-group">
-            <input type="email" name="email" id="email" placeholder="Enter your email">
-            <input type="submit" value="Notify me">
+            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Enter your email">
+
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0c340db8f186e97de79b3263a_8779ce619e" tabindex="-1" value=""></div>
+
+            <input type="submit" value="Notify me" name="subscribe" id="mc-embedded-subscribe" class="button">
           </div>
         </form>
+
         <p id="be-first">Be first to get early access. It's free!</p>
       </div>
       <div id="hero-illustration">
